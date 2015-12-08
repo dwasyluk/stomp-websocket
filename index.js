@@ -8,7 +8,7 @@
 // Root of the `stompjs module`
 
 var Stomp = require('./lib/stomp.js');
-module.exports = Stomp.Stomp;
+module.exports = Stomp;
 
 //var StompNode = require('./lib/stomp-node.js');
 //module.exports.overTCP = StompNode.overTCP;

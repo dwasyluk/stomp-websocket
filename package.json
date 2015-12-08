@@ -1,8 +1,11 @@
 {
-  "name": "stompjs",
-  "version": "2.3.4-next",
+  "name": "dl-stompjs",
+  "version": "2.3.4-patch",
   "author": "Jeff Mesnil <jmesnil@gmail.com>",
-  "description": "STOMP for JavaScript apps (Web browser & node.js)",
+  "contributors": [
+    { "name":"Dan Wasyluk", "email":"dwasyluk@gmail.com", "url":"http://danno.io/" }
+  ],
+  "description": "STOMP for JavaScript apps (Web browser & node.js). Modified for CommonJS.",
   "scripts": {
     "build": "cake build",
     "test": "coffeelint -f coffeelint.json -r src && cake test"
@@ -25,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jmesnil/stomp-websocket"
+    "url": "https://github.com/dwasyluk/stomp-websocket"
   },
   "keywords": [
     "STOMP",
@@ -35,6 +38,6 @@
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/jmesnil/stomp-websocket/issues"
+    "url": "https://github.com/dwasyluk/stomp-websocket/issues"
   }
 }
